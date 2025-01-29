@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class TestCase4 extends LaunchQuit
 {
-@Test(retryAnalyzer=IRetry_Logic.class)
+@Test
 public void login_searching_wishlist_decProductqty() throws InterruptedException
 {
 

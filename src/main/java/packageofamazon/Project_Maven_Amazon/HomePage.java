@@ -12,7 +12,7 @@ public class HomePage
 //step 1
 	@FindBy(id ="twotabsearchtextbox")
 	WebElement searchbox;
-	@FindBy(xpath = "//span[@class='nav-line-2 ']")
+	@FindBy(xpath = "//span[@id='nav-link-accountList-nav-line-1']")
 	WebElement accountandlist_hoverover;
 	@FindBy(xpath = "(//span[.='Sign in'])[1]")
 	WebElement signin_home;

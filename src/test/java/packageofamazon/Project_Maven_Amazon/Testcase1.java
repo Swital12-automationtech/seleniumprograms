@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class Testcase1 extends LaunchQuit
 {
-@Test(retryAnalyzer=IRetry_Logic.class)
+@Test
 
 public void login_searchproduct_logout() throws InterruptedException
 {

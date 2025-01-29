@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class TestCase5 extends LaunchQuit
 {
-@Test(retryAnalyzer=IRetry_Logic.class)
+@Test
 public void login_cart_cod_logout() throws InterruptedException
 {
 	HomePage homepage = new HomePage(driver);
