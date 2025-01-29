@@ -17,7 +17,7 @@ public class HomePage
 //step 1
 	@FindBy(id ="twotabsearchtextbox")
 	WebElement searchbox;
-	@FindBy(xpath = "//span[@id='nav-link-accountList-nav-line-1']")
+	@FindBy(css= "#nav-link-accountList")
 	WebElement accountandlist_hoverover;
 	@FindBy(xpath = "(//span[.='Sign in'])[1]")
 	WebElement signin_home;
@@ -32,7 +32,7 @@ public class HomePage
 	}
 	public void hoverover(WebDriver driver)
 	{
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		WebElement continueButton = wait.until(ExpectedConditions.elementToBeClickable(accountandlist_hoverover));
 		//continueButton.click();
 		Actions a1 = new Actions(driver);
