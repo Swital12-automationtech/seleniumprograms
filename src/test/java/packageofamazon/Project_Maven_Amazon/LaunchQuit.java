@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeMethod;
 
 public class LaunchQuit 
 {
-	WebDriver driver;
+	EdgeDriver driver;
 	@BeforeMethod
 	public void launch()
 	{
