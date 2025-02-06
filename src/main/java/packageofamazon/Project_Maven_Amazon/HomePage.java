@@ -3,6 +3,7 @@ package packageofamazon.Project_Maven_Amazon;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -36,10 +37,10 @@ public class HomePage
 		//WebElement hover = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#nav-link-accountList")));
 		//WebElement continueButton = wait.until(ExpectedConditions.elementToBeClickable(accountandlist_hoverover));
 		//continueButton.click();
-		WebElement accountList = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("nav-link-accountList")));
-
+		WebElement element = driver.findElement(By.xpath("//a[@id='nav-link-accountList']"));
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 		Actions a1 = new Actions(driver);
-		a1.moveToElement(accountList).perform();
+		a1.moveToElement(element).perform();
 	}
 	public void signin()
 	{

@@ -2,76 +2,76 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-06T13:21:27 IST" name="Suite" finished-at="2025-02-06T13:26:10 IST" duration-ms="282799">
+  <suite started-at="2025-02-06T21:15:30 IST" name="Suite" finished-at="2025-02-06T21:20:06 IST" duration-ms="276157">
     <groups>
     </groups>
-    <test started-at="2025-02-06T13:21:27 IST" name="Test" finished-at="2025-02-06T13:26:10 IST" duration-ms="282799">
+    <test started-at="2025-02-06T21:15:30 IST" name="Test" finished-at="2025-02-06T21:20:06 IST" duration-ms="276157">
       <class name="packageofamazon.Project_Maven_Amazon.TestCase5">
-        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase5@7f0eb4b4]" started-at="2025-02-06T13:25:08 IST" name="launch" finished-at="2025-02-06T13:25:19 IST" duration-ms="10729" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase5@7f0eb4b4]" started-at="2025-02-06T21:19:00 IST" name="launch" finished-at="2025-02-06T21:19:09 IST" duration-ms="9337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="login_cart_cod_logout()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase5@7f0eb4b4]" started-at="2025-02-06T13:25:19 IST" name="login_cart_cod_logout" finished-at="2025-02-06T13:26:06 IST" duration-ms="46472" status="PASS">
+        <test-method signature="login_cart_cod_logout()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase5@7f0eb4b4]" started-at="2025-02-06T21:19:09 IST" name="login_cart_cod_logout" finished-at="2025-02-06T21:20:02 IST" duration-ms="52863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_cart_cod_logout -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase5@7f0eb4b4]" started-at="2025-02-06T13:26:06 IST" name="quit" finished-at="2025-02-06T13:26:10 IST" duration-ms="3986" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase5@7f0eb4b4]" started-at="2025-02-06T21:20:02 IST" name="quit" finished-at="2025-02-06T21:20:06 IST" duration-ms="4271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- packageofamazon.Project_Maven_Amazon.TestCase5 -->
       <class name="packageofamazon.Project_Maven_Amazon.TestCase2">
-        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase2@7f3b84b8]" started-at="2025-02-06T13:22:01 IST" name="launch" finished-at="2025-02-06T13:22:10 IST" duration-ms="8181" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase2@7f3b84b8]" started-at="2025-02-06T21:16:10 IST" name="launch" finished-at="2025-02-06T21:16:20 IST" duration-ms="9727" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="login_searching_wishlist_cart()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase2@7f3b84b8]" started-at="2025-02-06T13:22:10 IST" name="login_searching_wishlist_cart" finished-at="2025-02-06T13:22:48 IST" duration-ms="38008" status="PASS">
+        <test-method signature="login_searching_wishlist_cart()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase2@7f3b84b8]" started-at="2025-02-06T21:16:20 IST" name="login_searching_wishlist_cart" finished-at="2025-02-06T21:16:55 IST" duration-ms="35595" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_searching_wishlist_cart -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase2@7f3b84b8]" started-at="2025-02-06T13:22:48 IST" name="quit" finished-at="2025-02-06T13:22:52 IST" duration-ms="3960" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase2@7f3b84b8]" started-at="2025-02-06T21:16:55 IST" name="quit" finished-at="2025-02-06T21:17:00 IST" duration-ms="4574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- packageofamazon.Project_Maven_Amazon.TestCase2 -->
       <class name="packageofamazon.Project_Maven_Amazon.TestCase3">
-        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase3@57a3af25]" started-at="2025-02-06T13:22:52 IST" name="launch" finished-at="2025-02-06T13:23:03 IST" duration-ms="11105" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase3@57a3af25]" started-at="2025-02-06T21:17:00 IST" name="launch" finished-at="2025-02-06T21:17:09 IST" duration-ms="9637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="login_searching_wishlist_incProductcart()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase3@57a3af25]" started-at="2025-02-06T13:23:03 IST" name="login_searching_wishlist_incProductcart" finished-at="2025-02-06T13:23:51 IST" duration-ms="48714" status="PASS">
+        <test-method signature="login_searching_wishlist_incProductcart()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase3@57a3af25]" started-at="2025-02-06T21:17:09 IST" name="login_searching_wishlist_incProductcart" finished-at="2025-02-06T21:17:55 IST" duration-ms="45608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_searching_wishlist_incProductcart -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase3@57a3af25]" started-at="2025-02-06T13:23:51 IST" name="quit" finished-at="2025-02-06T13:23:56 IST" duration-ms="4225" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase3@57a3af25]" started-at="2025-02-06T21:17:55 IST" name="quit" finished-at="2025-02-06T21:17:59 IST" duration-ms="4182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- packageofamazon.Project_Maven_Amazon.TestCase3 -->
       <class name="packageofamazon.Project_Maven_Amazon.TestCase4">
-        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase4@2b662a77]" started-at="2025-02-06T13:23:56 IST" name="launch" finished-at="2025-02-06T13:24:08 IST" duration-ms="12318" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase4@2b662a77]" started-at="2025-02-06T21:17:59 IST" name="launch" finished-at="2025-02-06T21:18:11 IST" duration-ms="11710" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="login_searching_wishlist_decProductqty()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase4@2b662a77]" started-at="2025-02-06T13:24:08 IST" name="login_searching_wishlist_decProductqty" finished-at="2025-02-06T13:25:04 IST" duration-ms="56276" status="PASS">
+        <test-method signature="login_searching_wishlist_decProductqty()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase4@2b662a77]" started-at="2025-02-06T21:18:11 IST" name="login_searching_wishlist_decProductqty" finished-at="2025-02-06T21:18:56 IST" duration-ms="44608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_searching_wishlist_decProductqty -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase4@2b662a77]" started-at="2025-02-06T13:25:04 IST" name="quit" finished-at="2025-02-06T13:25:08 IST" duration-ms="4206" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase4@2b662a77]" started-at="2025-02-06T21:18:56 IST" name="quit" finished-at="2025-02-06T21:19:00 IST" duration-ms="4217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- packageofamazon.Project_Maven_Amazon.TestCase4 -->
       <class name="packageofamazon.Project_Maven_Amazon.Testcase1">
-        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.Testcase1@4f18837a]" started-at="2025-02-06T13:21:27 IST" name="launch" finished-at="2025-02-06T13:21:37 IST" duration-ms="9946" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.Testcase1@4f18837a]" started-at="2025-02-06T21:15:30 IST" name="launch" finished-at="2025-02-06T21:15:44 IST" duration-ms="13504" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="login_searchproduct_logout()[pri:0, instance:packageofamazon.Project_Maven_Amazon.Testcase1@4f18837a]" started-at="2025-02-06T13:21:37 IST" name="login_searchproduct_logout" finished-at="2025-02-06T13:21:58 IST" duration-ms="20603" status="PASS">
+        <test-method signature="login_searchproduct_logout()[pri:0, instance:packageofamazon.Project_Maven_Amazon.Testcase1@4f18837a]" started-at="2025-02-06T21:15:44 IST" name="login_searchproduct_logout" finished-at="2025-02-06T21:16:06 IST" duration-ms="22009" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_searchproduct_logout -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.Testcase1@4f18837a]" started-at="2025-02-06T13:21:58 IST" name="quit" finished-at="2025-02-06T13:22:01 IST" duration-ms="3940" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.Testcase1@4f18837a]" started-at="2025-02-06T21:16:06 IST" name="quit" finished-at="2025-02-06T21:16:10 IST" duration-ms="4192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
