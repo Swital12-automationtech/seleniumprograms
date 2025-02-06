@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-06T15:37:18 IST" name="Default suite" finished-at="2025-02-06T15:37:52 IST" duration-ms="33825">
+  <suite started-at="2025-02-06T16:04:30 IST" name="Default suite" finished-at="2025-02-06T16:05:03 IST" duration-ms="33258">
     <groups>
     </groups>
-    <test started-at="2025-02-06T15:37:18 IST" name="Default test" finished-at="2025-02-06T15:37:52 IST" duration-ms="33825">
+    <test started-at="2025-02-06T16:04:30 IST" name="Default test" finished-at="2025-02-06T16:05:03 IST" duration-ms="33258">
       <class name="packageofamazon.Project_Maven_Amazon.Testcase1">
-        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.Testcase1@5c33f1a9]" started-at="2025-02-06T15:37:18 IST" name="launch" finished-at="2025-02-06T15:37:29 IST" duration-ms="11156" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.Testcase1@5c33f1a9]" started-at="2025-02-06T16:04:30 IST" name="launch" finished-at="2025-02-06T16:04:40 IST" duration-ms="10035" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="login_searchproduct_logout()[pri:0, instance:packageofamazon.Project_Maven_Amazon.Testcase1@5c33f1a9]" started-at="2025-02-06T15:37:29 IST" name="login_searchproduct_logout" finished-at="2025-02-06T15:37:48 IST" duration-ms="18747" status="PASS">
+        <test-method signature="login_searchproduct_logout()[pri:0, instance:packageofamazon.Project_Maven_Amazon.Testcase1@5c33f1a9]" started-at="2025-02-06T16:04:40 IST" name="login_searchproduct_logout" finished-at="2025-02-06T16:04:59 IST" duration-ms="19138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_searchproduct_logout -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.Testcase1@5c33f1a9]" started-at="2025-02-06T15:37:48 IST" name="quit" finished-at="2025-02-06T15:37:52 IST" duration-ms="3831" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.Testcase1@5c33f1a9]" started-at="2025-02-06T16:04:59 IST" name="quit" finished-at="2025-02-06T16:05:03 IST" duration-ms="3994" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

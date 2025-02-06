@@ -33,11 +33,13 @@ public class HomePage
 	public void hoverover(WebDriver driver)
 	{
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(70));
-		WebElement hover = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#nav-link-accountList")));
+		//WebElement hover = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#nav-link-accountList")));
 		//WebElement continueButton = wait.until(ExpectedConditions.elementToBeClickable(accountandlist_hoverover));
 		//continueButton.click();
+		WebElement accountList = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("nav-link-accountList")));
+
 		Actions a1 = new Actions(driver);
-		a1.moveToElement(hover).perform();
+		a1.moveToElement(accountList).perform();
 	}
 	public void signin()
 	{
