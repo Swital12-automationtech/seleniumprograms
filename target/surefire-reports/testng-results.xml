@@ -1,359 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="2" ignored="2" total="9" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-28T17:32:52 IST" name="Suite" finished-at="2025-01-28T17:37:35 IST" duration-ms="282900">
+  <suite started-at="2025-02-06T13:21:27 IST" name="Suite" finished-at="2025-02-06T13:26:10 IST" duration-ms="282799">
     <groups>
     </groups>
-    <test started-at="2025-01-28T17:32:52 IST" name="Test" finished-at="2025-01-28T17:37:35 IST" duration-ms="282900">
+    <test started-at="2025-02-06T13:21:27 IST" name="Test" finished-at="2025-02-06T13:26:10 IST" duration-ms="282799">
       <class name="packageofamazon.Project_Maven_Amazon.TestCase5">
-        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase5@7f3b84b8]" started-at="2025-01-28T17:35:59 IST" name="launch" finished-at="2025-01-28T17:36:05 IST" duration-ms="5835" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase5@7f0eb4b4]" started-at="2025-02-06T13:25:08 IST" name="launch" finished-at="2025-02-06T13:25:19 IST" duration-ms="10729" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method retried="true" signature="login_cart_cod_logout()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase5@7f3b84b8]" started-at="2025-01-28T17:36:05 IST" name="login_cart_cod_logout" finished-at="2025-01-28T17:36:15 IST" duration-ms="10130" status="SKIP">
-          <exception class="org.openqa.selenium.json.JsonException">
-            <message>
-              <![CDATA[java.lang.reflect.InvocationTargetException
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [cdaa2c43af368a40a022c87031262e48, actions {actions=[org.openqa.selenium.interactions.Sequence@2715644a]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59240}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59240/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cdaa2c43af368a40a022c87031262e48]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [cdaa2c43af368a40a022c87031262e48, actions {actions=[org.openqa.selenium.interactions.Sequence@2715644a]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59240}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59240/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cdaa2c43af368a40a022c87031262e48
-at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
-at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
-at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
-at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
-at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
-at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
-at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
-at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
-at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
-at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
-at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
-at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
-at java.base/java.util.Map.forEach(Map.java:733)
-at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
-at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
-at org.openqa.selenium.json.Json.toJson(Json.java:133)
-at org.openqa.selenium.json.Json.toJson(Json.java:119)
-at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:245)
-at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:111)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:178)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:631)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
-at org.openqa.selenium.interactions.Actions.perform(Actions.java:578)
-at packageofamazon.Project_Maven_Amazon.HomePage.hoverover(HomePage.java:31)
-at packageofamazon.Project_Maven_Amazon.TestCase5.login_cart_cod_logout(TestCase5.java:11)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
-at org.openqa.selenium.json.Json.toJson(Json.java:131)
-... 42 more
-Caused by: java.lang.reflect.InvocationTargetException
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
-... 63 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='nav-line-2 ']"}
-  (Session info: MicrosoftEdge=132.0.2957.127)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [cdaa2c43af368a40a022c87031262e48, findElement {using=xpath, value=//span[@class='nav-line-2 ']}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59240}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59240/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cdaa2c43af368a40a022c87031262e48
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy9.getWrappedElement(Unknown Source)
-at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:259)
-at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:208)
-at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
-at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-... 65 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.json.JsonException -->
+        <test-method signature="login_cart_cod_logout()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase5@7f0eb4b4]" started-at="2025-02-06T13:25:19 IST" name="login_cart_cod_logout" finished-at="2025-02-06T13:26:06 IST" duration-ms="46472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_cart_cod_logout -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase5@7f3b84b8]" started-at="2025-01-28T17:36:15 IST" name="quit" finished-at="2025-01-28T17:36:19 IST" duration-ms="3599" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase5@7f3b84b8]" started-at="2025-01-28T17:36:19 IST" name="launch" finished-at="2025-01-28T17:36:25 IST" duration-ms="5712" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method retried="true" signature="login_cart_cod_logout()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase5@7f3b84b8]" started-at="2025-01-28T17:36:25 IST" name="login_cart_cod_logout" finished-at="2025-01-28T17:36:35 IST" duration-ms="10035" status="SKIP">
-          <exception class="org.openqa.selenium.json.JsonException">
-            <message>
-              <![CDATA[java.lang.reflect.InvocationTargetException
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [0aa0ab5691635c1ece716ab27ebbad4e, actions {actions=[org.openqa.selenium.interactions.Sequence@345cf395]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59295}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59295/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0aa0ab5691635c1ece716ab27ebbad4e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [0aa0ab5691635c1ece716ab27ebbad4e, actions {actions=[org.openqa.selenium.interactions.Sequence@345cf395]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59295}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59295/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0aa0ab5691635c1ece716ab27ebbad4e
-at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
-at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
-at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
-at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
-at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
-at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
-at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
-at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
-at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
-at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
-at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
-at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
-at java.base/java.util.Map.forEach(Map.java:733)
-at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
-at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
-at org.openqa.selenium.json.Json.toJson(Json.java:133)
-at org.openqa.selenium.json.Json.toJson(Json.java:119)
-at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:245)
-at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:111)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:178)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:631)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
-at org.openqa.selenium.interactions.Actions.perform(Actions.java:578)
-at packageofamazon.Project_Maven_Amazon.HomePage.hoverover(HomePage.java:31)
-at packageofamazon.Project_Maven_Amazon.TestCase5.login_cart_cod_logout(TestCase5.java:11)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
-at org.openqa.selenium.json.Json.toJson(Json.java:131)
-... 42 more
-Caused by: java.lang.reflect.InvocationTargetException
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
-... 63 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='nav-line-2 ']"}
-  (Session info: MicrosoftEdge=132.0.2957.127)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [0aa0ab5691635c1ece716ab27ebbad4e, findElement {using=xpath, value=//span[@class='nav-line-2 ']}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59295}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59295/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0aa0ab5691635c1ece716ab27ebbad4e
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy9.getWrappedElement(Unknown Source)
-at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:259)
-at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:208)
-at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
-at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-... 65 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.json.JsonException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_cart_cod_logout -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase5@7f3b84b8]" started-at="2025-01-28T17:36:35 IST" name="quit" finished-at="2025-01-28T17:36:38 IST" duration-ms="3616" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase5@7f3b84b8]" started-at="2025-01-28T17:36:38 IST" name="launch" finished-at="2025-01-28T17:36:47 IST" duration-ms="8454" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method signature="login_cart_cod_logout()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase5@7f3b84b8]" started-at="2025-01-28T17:36:47 IST" name="login_cart_cod_logout" finished-at="2025-01-28T17:37:31 IST" duration-ms="44105" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_cart_cod_logout -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase5@7f3b84b8]" started-at="2025-01-28T17:37:31 IST" name="quit" finished-at="2025-01-28T17:37:35 IST" duration-ms="3952" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase5@7f0eb4b4]" started-at="2025-02-06T13:26:06 IST" name="quit" finished-at="2025-02-06T13:26:10 IST" duration-ms="3986" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- packageofamazon.Project_Maven_Amazon.TestCase5 -->
       <class name="packageofamazon.Project_Maven_Amazon.TestCase2">
-        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase2@131774fe]" started-at="2025-01-28T17:33:24 IST" name="launch" finished-at="2025-01-28T17:33:32 IST" duration-ms="7558" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase2@7f3b84b8]" started-at="2025-02-06T13:22:01 IST" name="launch" finished-at="2025-02-06T13:22:10 IST" duration-ms="8181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="login_searching_wishlist_cart()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase2@131774fe]" started-at="2025-01-28T17:33:32 IST" name="login_searching_wishlist_cart" finished-at="2025-01-28T17:34:09 IST" duration-ms="37370" status="PASS">
+        <test-method signature="login_searching_wishlist_cart()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase2@7f3b84b8]" started-at="2025-02-06T13:22:10 IST" name="login_searching_wishlist_cart" finished-at="2025-02-06T13:22:48 IST" duration-ms="38008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_searching_wishlist_cart -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase2@131774fe]" started-at="2025-01-28T17:34:09 IST" name="quit" finished-at="2025-01-28T17:34:13 IST" duration-ms="3902" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase2@7f3b84b8]" started-at="2025-02-06T13:22:48 IST" name="quit" finished-at="2025-02-06T13:22:52 IST" duration-ms="3960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- packageofamazon.Project_Maven_Amazon.TestCase2 -->
       <class name="packageofamazon.Project_Maven_Amazon.TestCase3">
-        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase3@158d2680]" started-at="2025-01-28T17:34:13 IST" name="launch" finished-at="2025-01-28T17:34:21 IST" duration-ms="8299" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase3@57a3af25]" started-at="2025-02-06T13:22:52 IST" name="launch" finished-at="2025-02-06T13:23:03 IST" duration-ms="11105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="login_searching_wishlist_incProductcart()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase3@158d2680]" started-at="2025-01-28T17:34:21 IST" name="login_searching_wishlist_incProductcart" finished-at="2025-01-28T17:35:01 IST" duration-ms="39899" status="PASS">
+        <test-method signature="login_searching_wishlist_incProductcart()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase3@57a3af25]" started-at="2025-02-06T13:23:03 IST" name="login_searching_wishlist_incProductcart" finished-at="2025-02-06T13:23:51 IST" duration-ms="48714" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_searching_wishlist_incProductcart -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase3@158d2680]" started-at="2025-01-28T17:35:01 IST" name="quit" finished-at="2025-01-28T17:35:05 IST" duration-ms="3901" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase3@57a3af25]" started-at="2025-02-06T13:23:51 IST" name="quit" finished-at="2025-02-06T13:23:56 IST" duration-ms="4225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- packageofamazon.Project_Maven_Amazon.TestCase3 -->
       <class name="packageofamazon.Project_Maven_Amazon.TestCase4">
-        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase4@77847718]" started-at="2025-01-28T17:35:05 IST" name="launch" finished-at="2025-01-28T17:35:13 IST" duration-ms="7804" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase4@2b662a77]" started-at="2025-02-06T13:23:56 IST" name="launch" finished-at="2025-02-06T13:24:08 IST" duration-ms="12318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="login_searching_wishlist_decProductqty()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase4@77847718]" started-at="2025-01-28T17:35:13 IST" name="login_searching_wishlist_decProductqty" finished-at="2025-01-28T17:35:55 IST" duration-ms="42565" status="PASS">
+        <test-method signature="login_searching_wishlist_decProductqty()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase4@2b662a77]" started-at="2025-02-06T13:24:08 IST" name="login_searching_wishlist_decProductqty" finished-at="2025-02-06T13:25:04 IST" duration-ms="56276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_searching_wishlist_decProductqty -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase4@77847718]" started-at="2025-01-28T17:35:55 IST" name="quit" finished-at="2025-01-28T17:35:59 IST" duration-ms="4045" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.TestCase4@2b662a77]" started-at="2025-02-06T13:25:04 IST" name="quit" finished-at="2025-02-06T13:25:08 IST" duration-ms="4206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- packageofamazon.Project_Maven_Amazon.TestCase4 -->
       <class name="packageofamazon.Project_Maven_Amazon.Testcase1">
-        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.Testcase1@4567f35d]" started-at="2025-01-28T17:32:52 IST" name="launch" finished-at="2025-01-28T17:33:01 IST" duration-ms="8663" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.Project_Maven_Amazon.Testcase1@4f18837a]" started-at="2025-02-06T13:21:27 IST" name="launch" finished-at="2025-02-06T13:21:37 IST" duration-ms="9946" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="login_searchproduct_logout()[pri:0, instance:packageofamazon.Project_Maven_Amazon.Testcase1@4567f35d]" started-at="2025-01-28T17:33:01 IST" name="login_searchproduct_logout" finished-at="2025-01-28T17:33:20 IST" duration-ms="19680" status="PASS">
+        <test-method signature="login_searchproduct_logout()[pri:0, instance:packageofamazon.Project_Maven_Amazon.Testcase1@4f18837a]" started-at="2025-02-06T13:21:37 IST" name="login_searchproduct_logout" finished-at="2025-02-06T13:21:58 IST" duration-ms="20603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_searchproduct_logout -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.Testcase1@4567f35d]" started-at="2025-01-28T17:33:20 IST" name="quit" finished-at="2025-01-28T17:33:24 IST" duration-ms="3638" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.Project_Maven_Amazon.Testcase1@4f18837a]" started-at="2025-02-06T13:21:58 IST" name="quit" finished-at="2025-02-06T13:22:01 IST" duration-ms="3940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

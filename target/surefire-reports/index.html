@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-skipped">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,26 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,  2 skipped,  5 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Retried methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-Suite">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="packageofamazon.Project_Maven_Amazon.TestCase5" class="method navigator-link" hash-for-method="login_cart_cod_logout">login_cart_cod_logout</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="packageofamazon.Project_Maven_Amazon.TestCase5" class="method navigator-link" hash-for-method="login_cart_cod_logout">login_cart_cod_logout</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -157,201 +138,17 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">packageofamazon.Project_Maven_Amazon.TestCase5</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="login_cart_cod_logout">
-                  </a> <!-- login_cart_cod_logout -->
-                  <span class="method-name">login_cart_cod_logout</span>
-                  <div class="stack-trace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [cdaa2c43af368a40a022c87031262e48, actions {actions=[org.openqa.selenium.interactions.Sequence@2715644a]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59240}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59240/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cdaa2c43af368a40a022c87031262e48
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
-	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
-	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
-	at java.base/java.util.Map.forEach(Map.java:733)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
-	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
-	at org.openqa.selenium.json.Json.toJson(Json.java:133)
-	at org.openqa.selenium.json.Json.toJson(Json.java:119)
-	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:245)
-	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:111)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:178)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:631)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:578)
-	at packageofamazon.Project_Maven_Amazon.HomePage.hoverover(HomePage.java:31)
-	at packageofamazon.Project_Maven_Amazon.TestCase5.login_cart_cod_logout(TestCase5.java:11)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
-Driver info: driver.version: RemoteWebDriver
-		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
-		at org.openqa.selenium.json.Json.toJson(Json.java:131)
-		... 42 more
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
-	... 63 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;nav-line-2 &apos;]&quot;}
-  (Session info: MicrosoftEdge=132.0.2957.127)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [cdaa2c43af368a40a022c87031262e48, findElement {using=xpath, value=//span[@class=&apos;nav-line-2 &apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59240}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59240/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cdaa2c43af368a40a022c87031262e48
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy9.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:259)
-	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:208)
-	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
-	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
-	... 65 more
-... Removed 36 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="login_cart_cod_logout">
-                  </a> <!-- login_cart_cod_logout -->
-                  <span class="method-name">login_cart_cod_logout</span>
-                  <div class="stack-trace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [0aa0ab5691635c1ece716ab27ebbad4e, actions {actions=[org.openqa.selenium.interactions.Sequence@345cf395]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59295}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59295/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0aa0ab5691635c1ece716ab27ebbad4e
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
-	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
-	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
-	at java.base/java.util.Map.forEach(Map.java:733)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
-	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
-	at org.openqa.selenium.json.Json.toJson(Json.java:133)
-	at org.openqa.selenium.json.Json.toJson(Json.java:119)
-	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:245)
-	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:111)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:178)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:631)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:578)
-	at packageofamazon.Project_Maven_Amazon.HomePage.hoverover(HomePage.java:31)
-	at packageofamazon.Project_Maven_Amazon.TestCase5.login_cart_cod_logout(TestCase5.java:11)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
-Driver info: driver.version: RemoteWebDriver
-		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
-		at org.openqa.selenium.json.Json.toJson(Json.java:131)
-		... 42 more
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
-	... 63 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;nav-line-2 &apos;]&quot;}
-  (Session info: MicrosoftEdge=132.0.2957.127)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [0aa0ab5691635c1ece716ab27ebbad4e, findElement {using=xpath, value=//span[@class=&apos;nav-line-2 &apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59295}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59295/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0aa0ab5691635c1ece716ab27ebbad4e
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy9.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:259)
-	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:208)
-	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
-	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
-	... 65 more
-... Removed 36 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">packageofamazon.Project_Maven_Amazon.TestCase3</span>
+              <span class="class-name">packageofamazon.Project_Maven_Amazon.Testcase1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login_searching_wishlist_incProductcart">
-                  </a> <!-- login_searching_wishlist_incProductcart -->
-                  <span class="method-name">login_searching_wishlist_incProductcart</span>
+                  <a name="login_searchproduct_logout">
+                  </a> <!-- login_searchproduct_logout -->
+                  <span class="method-name">login_searchproduct_logout</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -389,6 +186,21 @@ Session ID: 0aa0ab5691635c1ece716ab27ebbad4e
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">packageofamazon.Project_Maven_Amazon.TestCase3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_searching_wishlist_incProductcart">
+                  </a> <!-- login_searching_wishlist_incProductcart -->
+                  <span class="method-name">login_searching_wishlist_incProductcart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">packageofamazon.Project_Maven_Amazon.TestCase4</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -397,21 +209,6 @@ Session ID: 0aa0ab5691635c1ece716ab27ebbad4e
                   <a name="login_searching_wishlist_decProductqty">
                   </a> <!-- login_searching_wishlist_decProductqty -->
                   <span class="method-name">login_searching_wishlist_decProductqty</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">packageofamazon.Project_Maven_Amazon.Testcase1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="login_searchproduct_logout">
-                  </a> <!-- login_searchproduct_logout -->
-                  <span class="method-name">login_searchproduct_logout</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -472,35 +269,27 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login_cart_cod_logout')
-data.setCell(0, 2, 'packageofamazon.Project_Maven_Amazon.TestCase5')
-data.setCell(0, 3, 44105);
+data.setCell(0, 1, 'login_searching_wishlist_decProductqty')
+data.setCell(0, 2, 'packageofamazon.Project_Maven_Amazon.TestCase4')
+data.setCell(0, 3, 56276);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'login_searching_wishlist_decProductqty')
-data.setCell(1, 2, 'packageofamazon.Project_Maven_Amazon.TestCase4')
-data.setCell(1, 3, 42565);
+data.setCell(1, 1, 'login_searching_wishlist_incProductcart')
+data.setCell(1, 2, 'packageofamazon.Project_Maven_Amazon.TestCase3')
+data.setCell(1, 3, 48714);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'login_searching_wishlist_incProductcart')
-data.setCell(2, 2, 'packageofamazon.Project_Maven_Amazon.TestCase3')
-data.setCell(2, 3, 39899);
+data.setCell(2, 1, 'login_cart_cod_logout')
+data.setCell(2, 2, 'packageofamazon.Project_Maven_Amazon.TestCase5')
+data.setCell(2, 3, 46472);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'login_searching_wishlist_cart')
 data.setCell(3, 2, 'packageofamazon.Project_Maven_Amazon.TestCase2')
-data.setCell(3, 3, 37370);
+data.setCell(3, 3, 38008);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'login_searchproduct_logout')
 data.setCell(4, 2, 'packageofamazon.Project_Maven_Amazon.Testcase1')
-data.setCell(4, 3, 19680);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'login_cart_cod_logout')
-data.setCell(5, 2, 'packageofamazon.Project_Maven_Amazon.TestCase5')
-data.setCell(5, 3, 10130);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'login_cart_cod_logout')
-data.setCell(6, 2, 'packageofamazon.Project_Maven_Amazon.TestCase5')
-data.setCell(6, 3, 10035);
+data.setCell(4, 3, 20603);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -538,95 +327,71 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_searchproduct_logout</span>
-                <span class="method-start">8666 ms</span>
+                <span class="method-start">9949 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">28353 ms</span>
+                <span class="method-start">30562 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">packageofamazon.Project_Maven_Amazon.TestCase2</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">31994 ms</span>
+                <span class="method-start">34507 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_searching_wishlist_cart</span>
-                <span class="method-start">39553 ms</span>
+                <span class="method-start">42689 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">76930 ms</span>
+                <span class="method-start">80698 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">packageofamazon.Project_Maven_Amazon.TestCase3</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">80834 ms</span>
+                <span class="method-start">84660 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_searching_wishlist_incProductcart</span>
-                <span class="method-start">89134 ms</span>
+                <span class="method-start">95766 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">129045 ms</span>
+                <span class="method-start">144481 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">packageofamazon.Project_Maven_Amazon.TestCase4</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">132948 ms</span>
+                <span class="method-start">148709 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_searching_wishlist_decProductqty</span>
-                <span class="method-start">140752 ms</span>
+                <span class="method-start">161035 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">183320 ms</span>
+                <span class="method-start">217316 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">packageofamazon.Project_Maven_Amazon.TestCase5</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">187366 ms</span>
+                <span class="method-start">221523 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_cart_cod_logout</span>
-                <span class="method-start">193202 ms</span>
+                <span class="method-start">232253 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">203334 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">launch</span>
-                <span class="method-start">206934 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">login_cart_cod_logout</span>
-                <span class="method-start">212647 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">222683 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">launch</span>
-                <span class="method-start">226300 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">login_cart_cod_logout</span>
-                <span class="method-start">234754 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">278867 ms</span>
+                <span class="method-start">278728 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

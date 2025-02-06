@@ -10,6 +10,13 @@
           <include name="login_cart_cod_logout"/>
         </methods>
       </class> <!-- packageofamazon.Project_Maven_Amazon.TestCase5 -->
+      <class name="packageofamazon.Project_Maven_Amazon.TestCase4">
+        <methods>
+          <include name="launch"/>
+          <include name="quit"/>
+          <include name="login_searching_wishlist_decProductqty"/>
+        </methods>
+      </class> <!-- packageofamazon.Project_Maven_Amazon.TestCase4 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

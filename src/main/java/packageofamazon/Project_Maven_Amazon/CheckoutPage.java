@@ -17,6 +17,7 @@ WebElement backtocart;
 //step 2
 public void paymentmethodbtn(WebDriver driver) throws InterruptedException
 {
+	Thread.sleep(3000);
 	Actions actions = new Actions(driver);
 	actions.sendKeys(Keys.PAGE_DOWN).build().perform(); // Scroll one page down
 	Thread.sleep(3000);
